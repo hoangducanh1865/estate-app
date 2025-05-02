@@ -6,6 +6,11 @@ npm i prisma
 npm i @prisma/client
 npm i cookie-parser
 npm i jsonwebtoken
+npm i cors
+
+// Inside folder client
+npm i axios
+
 
 // Optional commands
 npm i nodemon
@@ -21,3 +26,6 @@ npx prisma db push
 
 // To create a random JWT secret key
 openssl rand -base64 32
+
+// Clone the UI repository to folder client
+git clone --single-branch -b main https://github.com/hoangducanh1865/real-estate-app.git
