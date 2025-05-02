@@ -14,6 +14,10 @@ npm i nodemon
 node app.js
 nodemon app.js // Optional
 npx nodemon app.jss
+npx nodemon --env-file .env app.js
 
 // After make any changes on prisma.schema
 npx prisma db push
+
+// To create a random JWT secret key
+openssl rand -base64 32
