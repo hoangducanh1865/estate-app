@@ -2,6 +2,10 @@
 npm init -y
 npm i express
 npm i bcrypt
+npm i prisma
+npm i @prisma/client
+npm i cookie-parser
+npm i jsonwebtoken
 
 // Optional commands
 npm i nodemon
@@ -10,3 +14,6 @@ npm i nodemon
 node app.js
 nodemon app.js // Optional
 npx nodemon app.jss
+
+// After make any changes on prisma.schema
+npx prisma db push
