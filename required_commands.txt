@@ -1,6 +1,7 @@
 // Inside folder api
 npm init -y
 npm i express
+npm i bcrypt
 
 // Optional commands
 npm i nodemon
@@ -8,13 +9,4 @@ npm i nodemon
 // To run the app 
 node app.js
 nodemon app.js // Optional
-
-
-{
-	"command": "npx",
-	"args": [
-		"-y",
-		"-c",
-		"node ~/.console-ninja/mcp/"
-	]
-}
+npx nodemon app.jss
