@@ -1,0 +1,67 @@
+- We can use lastet version of all libraries
+- To fix the prisma bug in step "Express.js Auth Tutorial", follow these steps:
+    1. Fix Prisma Client Generation Path in your schema.prisma:
+    '''
+    generator client {
+        provider = "prisma-client-js"
+        // Remove the custom output path to use default location
+        // output   = "../generated/prisma"
+    }
+    '''
+    The custom output path is conflicting with Node.js module resolution. Remove it to use the default location.
+
+    2. Update your prisma.js (or wherever you initialize Prisma):
+    '''
+    import pkg from '@prisma/client';
+    const { PrismaClient } = pkg;
+
+    const prisma = new PrismaClient();
+    export default prisma;
+    '''
+
+    3. Remove default.js as it's using CommonJS syntax in an ESM project. You don't need this intermediate file when using the default Prisma Client configuration.
+
+    4. Regenerate Prisma Client:
+    '''
+    npx prisma generate
+    rm -rf ./generated  # Remove old generated files if they exist
+    '''
+
+Key Changes Explained:
+    1. Output Path Removal:
+    The custom output path was creating a mismatch between where Prisma Client was generated and where Node.js expected to find modules
+    Default location (node_modules/.prisma/client) works better with ES Modules
+
+    2. Import Syntax Adjustment:
+    CommonJS modules need to be imported using default imports in ESM
+    The { PrismaClient } destructuring comes from the default import
+
+    3. File Cleanup:
+    The default.js file was creating unnecessary indirection and mixing CJS/ESM syntax
+    Modern Prisma versions (6.7.0+) work better with direct ESM imports
+
+After making these changes, your project structure should look like:
+    ├── node_modules/
+    │   └── .prisma/
+    │       └── client/
+    │           └── (generated files)
+    ├── prisma/
+    │   └── schema.prisma
+    ├── package.json
+    └── .env
+
+Verification Steps:
+    1. Ensure all old generated files are removed
+    2. Run `npx prisma generate` and check terminal output for success
+    3. Start your application with `node app.js`
+
+This configuration has been tested with:
+    - Node.js v22.15.0
+    - Prisma 6.7.0
+    - MongoDB datasource
+    - ES Modules ("type": "module" in package.json)
+
+If you still encounter issues, check:
+    1. Your `.env` file exists and has valid MongoDB credentials
+    2. All CJS syntax (module.exports/require) is removed from the project
+    3. No remaining generated files in custom locations
