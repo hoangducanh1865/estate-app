@@ -17,38 +17,50 @@ This repository contains the full-stack code for the AI-Powered Real Estate Inve
 
 <details>
   <summary><strong>🏠 Home Page</strong></summary>
-  <img width="1280" alt="Home Page Screenshot" src="https://github.com/user-attachments/assets/e02af06f-6877-4abf-9a2a-74a4c1934cf6" />
+  <img width="1280" alt="Home Page Screenshot" src="https://github.com/user-attachments/assets/d731906f-cc63-4195-80f3-0fa2ca670609" />
 </details>
 
 <details>
   <summary><strong>👤 Authentication Pages</strong></summary>
 
   **Register Page**
-  <img width="1279" alt="Register Page Screenshot" src="https://github.com/user-attachments/assets/8ba28236-e95a-4d56-9b2e-6e3140067969" />
+  <img width="1280" alt="Register Page Screenshot" src="https://github.com/user-attachments/assets/53c4a3ba-6e8a-4a4c-9448-a49bd2ab50a7" />
 
   **Login Page**
-  <img width="1280" alt="Login Page Screenshot" src="https://github.com/user-attachments/assets/13ece5c5-dbba-43ef-8bf7-44ebd5720161" />
+  <img width="1280" alt="Login Page Screenshot" src="https://github.com/user-attachments/assets/9b2420b8-2e2f-4c0a-9573-10f905996e18" />
 </details>
 
 <details>
   <summary><strong>🧑‍💼 User Profile Page</strong></summary>
-  <img width="1280" alt="Profile Page Screenshot 1" src="https://github.com/user-attachments/assets/87a60f54-5555-4b4b-a516-1fadec778ef5" />
-  <img width="1279" alt="Profile Page Screenshot 2" src="https://github.com/user-attachments/assets/cb1bd751-6fb5-4976-933a-465d665117d4" />
-  <img width="1280" alt="Profile Page Screenshot 3" src="https://github.com/user-attachments/assets/a6c4fc01-4084-4a68-96b1-3ab34d6bf770" />
-</details>
+  <img width="1280" alt="Profile Page Screenshot 1" src="https://github.com/user-attachments/assets/108f19d8-2a78-44bf-8a42-6f7d3a229830" />
+  <img width="1280" alt="Profile Page Screenshot 2" src="https://github.com/user-attachments/assets/39b993ed-ff7b-4ceb-88b5-af249ea14655" />
+ </details>
 
 <details>
   <summary><strong>🏘️ Estate List Page</strong></summary>
-  <img width="1279" alt="Estate List Page Screenshot" src="https://github.com/user-attachments/assets/cb982442-168c-4227-8327-de86947ea2a3" />
+  <img width="1280" alt="Estate List Page Screenshot 1" src="https://github.com/user-attachments/assets/1f6a345f-98fd-4e60-ba18-1f63834d3a06" />
+  <img width="1280" alt="Estate List Page Screenshot 2" src="https://github.com/user-attachments/assets/b61cda52-4285-4e01-baf1-0e7f4e3cf09a" />
 </details>
 
 <details>
   <summary><strong>📱 Responsive Design Examples</strong></summary>
 
-  **Medium Size**
-  <img width="777" alt="Medium Screen Size Screenshot" src="https://github.com/user-attachments/assets/5af1949b-74c1-43b3-97d3-3b22ce5e7d96" />
+  **Medium Size Screen**  
+  *Home Page*
+  <img width="1032" alt="Medium Screen - Home Page" src="https://github.com/user-attachments/assets/5fcb7e5e-d636-4c75-bc33-9aad18f755ee" />
+  *Profile Page*
+  <img width="1032" alt="Medium Screen - Profile Page 1" src="https://github.com/user-attachments/assets/a84dcf1f-966f-4daf-a020-059e78e2078f" />
+  <img width="1032" alt="Medium Screen - Profile Page 2" src="https://github.com/user-attachments/assets/c750d3f5-fde9-44ce-a840-3eb1bf22a273" />
+  <img width="1032" alt="Medium Screen - Profile Page 3" src="https://github.com/user-attachments/assets/3404e171-d0f6-43b9-953b-01a1aec30ef0" />
+  <img width="1032" alt="Medium Screen - Profile Page 4" src="https://github.com/user-attachments/assets/47f2ad16-de0a-4a84-ac26-4f807ec64b74" />
+  *Estate List Page*
+  <img width="1032" alt="Medium Screen - Estate List Page" src="https://github.com/user-attachments/assets/e38285df-7c88-4169-bd73-93e617975f0e" />
 
-  **Small Size**
-  <img width="649" alt="Small Screen Size Screenshot 1" src="https://github.com/user-attachments/assets/2d52e826-85a9-44e3-95dc-5166bfc7a6c0" />
-  <img width="649" alt="Small Screen Size Screenshot 2" src="https://github.com/user-attachments/assets/60b0aece-66d5-4cf0-bd09-2bc60cbd5230" />
+  ---
+
+  **Small Size Screen**  
+  *Home Page*  
+  <img width="746" alt="Small Screen - Home Page 1" src="https://github.com/user-attachments/assets/c373cb65-5cd8-400d-b599-9d25b08f111a" />
+  <img width="745" alt="Small Screen - Home Page 2" src="https://github.com/user-attachments/assets/ff99f6da-f905-4c70-bd25-1965924a26d4" />
+
 </details>
