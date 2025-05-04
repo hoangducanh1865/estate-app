@@ -1,4 +1,4 @@
-# AI-Powered Real Estate Investment Platform (Front-End)
+# AI-Powered Real Estate Investment Platform
 
 [![GitHub Repository](https://img.shields.io/badge/GitHub-Front--End%20Repo-blue?style=flat-square&logo=github)](https://github.com/hoangducanh1865/real-estate-app)
 <!-- Add other relevant badges here: License, Build Status, etc. -->
